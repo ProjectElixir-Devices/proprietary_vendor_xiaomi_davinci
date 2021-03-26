@@ -18,6 +18,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_muqin_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_muqin_up.ogg \
     vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_yingyan_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_yingyan_down.ogg \
     vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_yingyan_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_yingyan_up.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_jojo_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_jojo_down.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_jojo_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_jojo_up.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_super_mario_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_super_mario_down.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_super_mario_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_super_mario_up.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_imperial_march_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_imperial_march_down.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_imperial_march_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_imperial_march_up.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_lightsaber_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_lightsaber_down.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_lightsaber_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_lightsaber_up.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_throne_room_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_throne_room_down.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_throne_room_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_throne_room_up.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_anime_moan_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_anime_moan_down.ogg \
+    vendor/xiaomi/davinci/proprietary/media/audio/ui/popup_anime_moan_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_anime_moan_up.ogg \
     vendor/xiaomi/davinci/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/davinci/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/davinci/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
