@@ -125,7 +125,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.primary.sm6150",
+	name: "audio.primary.sm6150_vendor",
+	stem: "audio.primary.sm6150",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -160,7 +161,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libssrec",
+	name: "libssrec_vendor",
+	stem: "libssrec",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -177,7 +179,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libspkrprot",
+	name: "libspkrprot_vendor",
+	stem: "libspkrprot",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -194,7 +197,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsndmonitor",
+	name: "libsndmonitor_vendor",
+	stem: "libsndmonitor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -211,7 +215,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhfp",
+	name: "libhfp_vendor",
+	stem: "libhfp",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -228,7 +233,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhdmipassthru",
+	name: "libhdmipassthru_vendor",
+	stem: "libhdmipassthru",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -245,7 +251,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libhdmiedid",
+	name: "libhdmiedid_vendor",
+	stem: "libhdmiedid",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -262,7 +269,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libexthwplugin",
+	name: "libexthwplugin_vendor",
+	stem: "libexthwplugin",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -296,7 +304,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcomprcapture",
+	name: "libcomprcapture_vendor",
+	stem: "libcomprcapture",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -313,7 +322,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcirrusspkrprot",
+	name: "libcirrusspkrprot_vendor",
+	stem: "libcirrusspkrprot",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -330,7 +340,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbatterylistener",
+	name: "libbatterylistener_vendor",
+	stem: "libbatterylistener",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -432,7 +443,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "liba2dpoffload",
+	name: "liba2dpoffload_vendor",
+	stem: "liba2dpoffload",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -2643,7 +2655,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmpbase",
+	name: "libmpbase_vendor",
+	stem: "libmpbase",
 	owner: "xiaomi",
 	strip: {
 		none: true,
