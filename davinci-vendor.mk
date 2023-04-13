@@ -260,25 +260,25 @@ PRODUCT_PACKAGES += \
     libadiertac \
     libadm \
     libaudcal \
-    audio.primary.sm6150 \
+    audio.primary.sm6150_vendor \
     libsurround_3mic_proc \
-    libssrec \
-    libspkrprot \
-    libsndmonitor \
-    libhfp \
-    libhdmipassthru \
-    libhdmiedid \
-    libexthwplugin \
+    libssrec_vendor \
+    libspkrprot_vendor \
+    libsndmonitor_vendor \
+    libhfp_vendor \
+    libhdmipassthru_vendor \
+    libhdmiedid_vendor \
+    libexthwplugin_vendor \
     libdrc \
-    libcomprcapture \
-    libcirrusspkrprot \
-    libbatterylistener \
+    libcomprcapture_vendor \
+    libcirrusspkrprot_vendor \
+    libbatterylistener_vendor \
     libaudioroute_ext \
     libaudioparsers \
     libaudioconfigstore \
     libaudioalsa \
     libaudio_log_utils \
-    liba2dpoffload \
+    liba2dpoffload_vendor \
     libmulawdec \
     liblistensoundmodel2 \
     libgcs-calwrapper \
@@ -404,7 +404,7 @@ PRODUCT_PACKAGES += \
     libmivendor_module_calibration \
     libmivendor_module_hall \
     libmivendor_module_motor \
-    libmpbase \
+    libmpbase_vendor \
     libremosaic_daemon \
     libremosaiclib \
     libsensorslog \
