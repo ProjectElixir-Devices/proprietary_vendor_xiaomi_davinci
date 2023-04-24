@@ -8255,18 +8255,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "slim_daemon",
-	owner: "xiaomi",
-	srcs: ["proprietary/vendor/bin/slim_daemon"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "tftp_server",
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/tftp_server"],
