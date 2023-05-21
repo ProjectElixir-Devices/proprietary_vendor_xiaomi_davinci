@@ -234,6 +234,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/lib/rfsa/adsp/misound_karaoke_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaoke_res.bin \
     vendor/xiaomi/davinci/proprietary/vendor/lib/rfsa/adsp/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaokemix_res.bin \
     vendor/xiaomi/davinci/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
+    vendor/xiaomi/davinci/proprietary/vendor/lib/rfsa/adsp/misound_res_headphone.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_headphone.bin \
+    vendor/xiaomi/davinci/proprietary/vendor/lib/rfsa/adsp/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk.bin \
     vendor/xiaomi/davinci/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/xiaomi/davinci/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/xiaomi/davinci/proprietary/vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/10_version_update_ecc_table.sql \
@@ -257,6 +259,33 @@ PRODUCT_PACKAGES += \
     libacdbrtac \
     libadiertac \
     libadm \
+    libaudcal \
+    audio.primary.sm6150 \
+    libsurround_3mic_proc \
+    libssrec \
+    libspkrprot \
+    libsndmonitor \
+    libhfp \
+    libhdmipassthru \
+    libhdmiedid \
+    libexthwplugin \
+    libdrc \
+    libcomprcapture \
+    libcirrusspkrprot \
+    libbatterylistener \
+    libaudioroute_ext \
+    libaudioparsers \
+    libaudioconfigstore \
+    libaudioalsa \
+    libaudio_log_utils \
+    liba2dpoffload \
+    libmulawdec \
+    liblistensoundmodel2 \
+    libgcs-calwrapper \
+    libgcs-ipc \
+    libgcs-osal \
+    libgcs \
+    libxlog \
     libaudcal \
     libqtigef \
     libsn100u_fw \
@@ -455,7 +484,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti_2_1 \
     libdsd2pcm \
     libqcodec2 \
-    librice \
     libsmwrapper \
     libswvdec \
     libvppclient \
@@ -482,6 +510,11 @@ PRODUCT_PACKAGES += \
     libsns_device_mode_skel \
     libsns_low_lat_stream_skel \
     libasphere \
+    libdirac \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
+    libmisoundfx \
     libshoebox \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
