@@ -518,6 +518,7 @@ PRODUCT_PACKAGES += \
     libqcvirt \
     libmisoundfx \
     libshoebox \
+    libspatialaudio \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
