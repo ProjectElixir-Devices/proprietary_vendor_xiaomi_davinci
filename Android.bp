@@ -7801,18 +7801,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "thermal-engine",
-	owner: "xiaomi",
-	srcs: ["proprietary/vendor/bin/thermal-engine"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "adpl",
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/adpl"],
